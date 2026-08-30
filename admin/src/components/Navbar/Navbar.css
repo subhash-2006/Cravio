@@ -1,0 +1,64 @@
+.navbar {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 15px 30px;
+
+  background: white;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+}
+
+.navbar .logo {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  font-size: 24px;
+
+  font-weight: 700;
+
+  color: #333;
+
+}
+
+.logo img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  transform: translateY(-3px);
+}
+
+.navbar .logo span {
+
+  color: tomato;
+
+}
+
+.navbar-right {
+
+  font-size: 14px;
+
+  color: #888;
+
+  background: #fff3f0;
+
+  padding: 6px 14px;
+
+  border-radius: 20px;
+
+  border: 1px solid #ffccbc;
+
+  color: tomato;
+
+  font-weight: 500;
+
+}
