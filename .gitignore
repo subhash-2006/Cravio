@@ -16,8 +16,8 @@ frontend/dist/
 admin/dist/
 
 # Uploaded media & logs
-backend/uploads/*
-!backend/uploads/.gitkeep
+!backend/uploads/
+!backend/uploads/*.png
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
